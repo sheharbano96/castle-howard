@@ -25,6 +25,24 @@
       "width" : 904,
       "images" : [ {
         "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://e7fbef43-84fb-470c-8ddf-45cc8231eed4",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/2014-gy-1436/full/523,99/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/2014-gy-1436",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 99,
+          "width" : 523
+        },
+        "on" : "http://2cc88e66-4c25-4717-aa90-99ea789a441f#xywh=292,241,523,99"
+      }, {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
         "@id" : "http://b85d85a3-9079-4352-8e55-3c0f042b560b",
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
