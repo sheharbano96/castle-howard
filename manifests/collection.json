@@ -1,0 +1,13 @@
+{
+  "id" : "https://sheharbano96.github.io/castle-howard/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in sheharbano96/castle-howard project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://sheharbano96.github.io/castle-howard/manifests/manifest-castle.json",
+    "label" : "Castle Howard, North Yorkshire"
+  } ]
+}
