@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 79,
+    "height" : 23
+  }, {
+    "width" : 157,
+    "height" : 46
+  }, {
+    "width" : 313,
+    "height" : 91
+  }, {
+    "width" : 625,
+    "height" : 182
+  }, {
+    "width" : 1250,
+    "height" : 364
+  }, {
+    "width" : 2500,
+    "height" : 727
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 2500,
+  "@id" : "https://sheharbano96.github.io/castle-howard/images/2014GY1436",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 727
+}
