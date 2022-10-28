@@ -125,8 +125,8 @@
             "@id" : "https://iiif.archivelab.org/iiif/castle-howard-image",
             "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
           },
-          "height" : 445,
-          "width" : 1060
+          "height" : 528,
+          "width" : 904
         },
         "on" : "http://93346f37-f439-470b-93a2-6941a77b4c11"
       } ],
