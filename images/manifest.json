@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 1060,
+    "id" : "https://sheharbano96.github.io/castle-howard/images/castl-howard-sketch/canvas/",
+    "label" : {
+      "none" : [ "castl-howard-sketch" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://sheharbano96.github.io/castle-howard/images/castl-howard-sketch/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://sheharbano96.github.io/castle-howard/images/castl-howard-sketch/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 34,
+              "height" : 14
+            }, {
+              "width" : 67,
+              "height" : 28
+            }, {
+              "width" : 133,
+              "height" : 56
+            }, {
+              "width" : 265,
+              "height" : 112
+            }, {
+              "width" : 530,
+              "height" : 223
+            }, {
+              "width" : 1060,
+              "height" : 445
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 1060,
+            "@id" : "https://sheharbano96.github.io/castle-howard/images/castl-howard-sketch",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 445
+          } ],
+          "format" : "image/jpeg",
+          "width" : 1060,
+          "id" : "https://sheharbano96.github.io/castle-howard/images/castl-howard-sketch/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 445
+        },
+        "target" : "https://sheharbano96.github.io/castle-howard/images/castl-howard-sketch/canvas/"
+      } ]
+    } ],
+    "height" : 445
+  }, {
     "width" : 2500,
     "id" : "https://sheharbano96.github.io/castle-howard/images/2014GY1436/canvas/",
     "label" : {
