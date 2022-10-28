@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 29,
+    "height" : 17
+  }, {
+    "width" : 57,
+    "height" : 33
+  }, {
+    "width" : 113,
+    "height" : 66
+  }, {
+    "width" : 226,
+    "height" : 132
+  }, {
+    "width" : 452,
+    "height" : 264
+  }, {
+    "width" : 904,
+    "height" : 528
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 904,
+  "@id" : "https://sheharbano96.github.io/castle-howard/images/castle-howard-north",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 528
+}
