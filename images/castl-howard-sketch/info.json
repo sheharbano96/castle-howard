@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 34,
+    "height" : 14
+  }, {
+    "width" : 67,
+    "height" : 28
+  }, {
+    "width" : 133,
+    "height" : 56
+  }, {
+    "width" : 265,
+    "height" : 112
+  }, {
+    "width" : 530,
+    "height" : 223
+  }, {
+    "width" : 1060,
+    "height" : 445
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 1060,
+  "@id" : "https://sheharbano96.github.io/castle-howard/images/castl-howard-sketch",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 445
+}
