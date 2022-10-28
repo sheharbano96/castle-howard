@@ -95,6 +95,24 @@
       "width" : 904,
       "images" : [ {
         "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://c5d2c3c1-8c50-4366-980b-fe2e4eeaecfb",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/castl-howard-sketch/full/863,329/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/castl-howard-sketch",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 329,
+          "width" : 863
+        },
+        "on" : "http://f4165fe4-7a77-43b3-ad33-e85efda28950#xywh=41,77,863,329"
+      }, {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
         "@id" : "http://03881460-c375-40f5-a687-c68ba6307613",
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
@@ -107,8 +125,8 @@
             "@id" : "https://iiif.archivelab.org/iiif/castle-howard-image",
             "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
           },
-          "height" : 528,
-          "width" : 904
+          "height" : 445,
+          "width" : 1060
         },
         "on" : "http://93346f37-f439-470b-93a2-6941a77b4c11"
       } ],
