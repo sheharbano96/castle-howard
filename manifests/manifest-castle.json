@@ -40,7 +40,7 @@
           "height" : 99,
           "width" : 523
         },
-        "on" : "http://2cc88e66-4c25-4717-aa90-99ea789a441f#xywh=292,241,523,99"
+        "on" : "http://2cc88e66-4c25-4717-aa90-99ea789a441f#xywh=290,212,523,99"
       }, {
         "@context" : "http://iiif.io/api/presentation/2/context.json",
         "@id" : "http://b85d85a3-9079-4352-8e55-3c0f042b560b",
