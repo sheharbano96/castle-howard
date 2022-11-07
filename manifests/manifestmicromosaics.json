@@ -1,0 +1,675 @@
+{
+  "@context" : [ "http://digirati.com/canvaspanel/vocab.json", "http://www.w3.org/ns/anno.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+  "id" : "https://sheharbano96.github.io/castle-howard/manifests/manifestmicromosaics.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Micromosaics" ]
+  },
+  "metadata" : [ {
+    "label" : {
+      "en" : [ "Comment" ]
+    },
+    "value" : {
+      "@none" : [ "The Rosalinde and Arthur Gilbert Collection at the Victoria and Albert Museum contains one of the world's finest collections of micromosaics – exquisite, jewel-like pictures assembled from glass filaments. This presentation celebrates these incredible works of art and craft, skill and patience, introducing the history of the form, and some of its greatest moments." ]
+    }
+  } ],
+  "summary" : {
+    "en" : [ "The Rosalinde and Arthur Gilbert Collection at the Victoria and Albert Museum contains one of the world's finest collections of micromosaics – exquisite, jewel-like pictures assembled from glass filaments. This presentation celebrates these incredible works of art and craft, skill and patience, introducing the history of the form, and some of its greatest moments." ]
+  },
+  "thumbnail" : [ {
+    "id" : "#TODO",
+    "type" : "Image",
+    "width" : 200,
+    "height" : 300,
+    "service" : {
+      "id" : "#TODO",
+      "type" : "ImageService2",
+      "profile" : "level1"
+    }
+  } ],
+  "posterCanvas" : {
+    "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/poster",
+    "requiredStatement" : {
+      "label" : {
+        "en" : [ "" ]
+      },
+      "value" : {
+        "en" : [ "<a href=\"https://collections.vam.ac.uk/item/O156392/plaque-unknown/\" title=\"Doves of Pliny\">Doves of Pliny</a> (Rome, about 1830)<br/>The Rosalinde and Arthur Gilbert Collection on loan to the Victoria and Albert Museum, London" ]
+      }
+    },
+    "width" : 2550,
+    "height" : 1875,
+    "label" : {
+      "en" : [ "The Rosalinde and Arthur Gilbert Collection at the Victoria and Albert Museum" ]
+    },
+    "summary" : {
+      "en" : [ "The Rosalinde and Arthur Gilbert Collection at the Victoria and Albert Museum contains one of the world's finest collections of micromosaics" ]
+    },
+    "items" : [ {
+      "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/list/04a43f20-5257-77fd-92e8-af392b7a938e",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/annotation/c59fd45c-8ef0-1e72-6860-94ac5f63c1ff",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "body" : {
+          "id" : "https://framemark.vam.ac.uk/collections/2018KT2618/full/full/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "width" : 2550,
+          "height" : 1875,
+          "service" : {
+            "id" : "https://framemark.vam.ac.uk/collections/2018KT2618",
+            "type" : "ImageService2",
+            "profile" : "level1"
+          }
+        },
+        "target" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/list/04a43f20-5257-77fd-92e8-af392b7a938e#"
+      } ]
+    } ]
+  },
+  "rights" : "https://creativecommons.org/licenses/by/4.0/",
+  "homepage" : {
+    "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/text/0d7f8e5c-78dc-5195-f03b-c9ed5468c269",
+    "type" : "Text",
+    "label" : {
+      "en" : [ "Home page Balenciaga" ]
+    },
+    "format" : "text/html"
+  },
+  "items" : [ {
+    "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/canvas/8ee3a4fe-7f10-e18b-0a5c-9d314f79f7bf",
+    "type" : "Canvas",
+    "behavior" : [ "info-position-left", "layout-split" ],
+    "label" : {
+      "en" : [ "Micromosaics: Masterpieces from the Rosalinde and Arthur Gilbert Collection" ]
+    },
+    "summary" : {
+      "en" : [ "<br/><br/> The Rosalinde and Arthur Gilbert Collection contains around 1200 items, including gold and silver, enamel miniatures, gold boxes and mosaics. The galleries’ (rooms 70 – 73) constantly changing display includes a spectacular group of micromosaics – some of the finest in the world. This slideshow takes a look at some of these incredibly intricate works of artistry – and patience.<br/><br/>", "The earliest micromosaics were made in Rome during the second half of the 18th century. The mosaics shown here showcase the virtuosity of the early micromosaicists, and give a glimpse into the world in which they were created. Rome, with its magnificent heritage and as the meeting point for culture-hungry northern Europeans, was the natural place of origin for this new technique.", "<br/><br/> All images © The Rosalinde and Arthur Gilbert Collection on loan to the Victoria and Albert Museum, London" ]
+    },
+    "width" : 2550,
+    "height" : 1875,
+    "requiredStatement" : {
+      "label" : {
+        "en" : [ "" ]
+      },
+      "value" : {
+        "en" : [ "<a href=\"https://collections.vam.ac.uk/item/O156392/plaque-unknown/\" title=\"Micromosaic plaque with The Doves of Pliny\">Micromosaic plaque with The Doves of Pliny </a> (Rome, about 1830)<br/>The Rosalinde and Arthur Gilbert Collection on loan to the Victoria and Albert Museum, London" ]
+      }
+    },
+    "items" : [ {
+      "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/list/4707755a-4aca-28b8-a774-663130af214c",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/annotation/bab2fef1-5000-41a5-5fcc-f51252d2bb31",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "body" : {
+          "id" : "https://framemark.vam.ac.uk/collections/2018KT2618/full/full/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "width" : 2550,
+          "height" : 1875,
+          "service" : {
+            "id" : "https://framemark.vam.ac.uk/collections/2018KT2618",
+            "type" : "ImageService2",
+            "profile" : "level1"
+          }
+        },
+        "target" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/canvas/8ee3a4fe-7f10-e18b-0a5c-9d314f79f7bf#"
+      } ]
+    } ]
+  }, {
+    "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/canvas/f9815449-66b2-7e2f-c2cc-8629945055cf",
+    "type" : "Canvas",
+    "width" : 2550,
+    "height" : 1875,
+    "behavior" : [ "info-position-left", "layout-overlay" ],
+    "summary" : {
+      "en" : [ "This micromosaic is just over 4cm high. Its tesserae (tiles) are so tiny that even at magnification it would be difficult to see the individual pieces. Note the reflection of the doves in the water, and their shadows. " ]
+    },
+    "requiredStatement" : {
+      "label" : {
+        "en" : [ "" ]
+      },
+      "value" : {
+        "en" : [ "<a href=\"https://collections.vam.ac.uk/item/O156392/plaque-unknown/\" title=\"Micromosaic plaque with The Doves of Pliny\"> Micromosaic plaque with The Doves of Pliny</a> (Rome, about 1830)<br/>The Rosalinde and Arthur Gilbert Collection on loan to the Victoria and Albert Museum, London" ]
+      }
+    },
+    "items" : [ {
+      "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/list/da461844-c1d5-3c80-f736-68234e8314c7",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/annotation/4668a401-996c-eb38-a093-14fe29785632",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "body" : {
+          "id" : "https://framemark.vam.ac.uk/collections/2018KT2618/full/full/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "width" : 2550,
+          "height" : 1875,
+          "service" : {
+            "id" : "https://framemark.vam.ac.uk/collections/2018KT2618",
+            "type" : "ImageService2",
+            "profile" : "level1"
+          }
+        },
+        "target" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/canvas/f9815449-66b2-7e2f-c2cc-8629945055cf#"
+      } ]
+    } ]
+  }, {
+    "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/canvas/29204463-f76f-d22f-1a6a-ddb426dcd521",
+    "type" : "Canvas",
+    "behavior" : [ "info-position-left", "layout-overlay" ],
+    "summary" : {
+      "en" : [ "This piece shows how a mosaic pioneer created a copy of a painting, despite access to a fairly limited colour palette. Whereas a painter might have gently faded the colour of the sky, Raffaelli created a sense of depth through the graduation in size of small pieces of glass." ]
+    },
+    "width" : 2500,
+    "height" : 2096,
+    "requiredStatement" : {
+      "label" : {
+        "en" : [ "" ]
+      },
+      "value" : {
+        "en" : [ "<a href=\"https://collections.vam.ac.uk/item/O157686/the-temple-of-the-sibyl-picture-raffaelli-giacomo/\" title=\"Temple of the Sybil at Tivoli after Jacob Philipp Hackert\">Temple of the Sybil at Tivoli after Jacob Philipp Hackert</a> (Rome, about 1777)<br/>Attributed to Giacomo Raffaelli (1753–1836), <br/>The Rosalinde and Arthur Gilbert Collection on loan to the Victoria and Albert Museum, London" ]
+      }
+    },
+    "items" : [ {
+      "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/list/f3078257-6d06-984d-7256-5733dd5da69d",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/annotation/f9e7c6de-5160-c182-7727-c9cf6d33aff1",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "body" : {
+          "id" : "https://framemark.vam.ac.uk/collections/2009CC6153/full/full/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "width" : 2500,
+          "height" : 2096,
+          "service" : {
+            "id" : "https://framemark.vam.ac.uk/collections/2009CC6153",
+            "type" : "ImageService2",
+            "profile" : "level1"
+          }
+        },
+        "target" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/canvas/29204463-f76f-d22f-1a6a-ddb426dcd521#"
+      } ]
+    } ]
+  }, {
+    "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/canvas/45e40608-2c68-0012-8060-42db05796de4",
+    "type" : "Canvas",
+    "behavior" : [ "info-position-left", "layout-overlay" ],
+    "summary" : {
+      "en" : [ "The invention of micromosaics served a market of tourists who were hungry for sophisticated and novel ways to ‘take Rome home’ after completing their Grand Tour (educational tours around Europe, visiting major cultural sites). This miniature depiction of an amphora evokes the civilization preceding the Romans in ancient Italy. The fall of light on its body is created using eight different colours.  " ]
+    },
+    "width" : 2500,
+    "height" : 2500,
+    "requiredStatement" : {
+      "label" : {
+        "en" : [ "" ]
+      },
+      "value" : {
+        "en" : [ "<a href=\"https://collections.vam.ac.uk/item/O156608/ring-unknown/\" title=\"Etruscan amphora\">Etruscan amphora</a> (Rome, about 1800)<br/>set in a ring, possibly in Rome<br/>The Rosalinde and Arthur Gilbert Collection on loan to the Victoria and Albert Museum, London" ]
+      }
+    },
+    "items" : [ {
+      "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/list/b9f3e1a6-781a-06a1-857e-1be43638d4d3",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/annotation/a7918afb-16b5-8cdd-8324-610ff647d837",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "body" : {
+          "id" : "https://framemark.vam.ac.uk/collections/2008BW3433/full/full/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "width" : 2500,
+          "height" : 2500,
+          "service" : {
+            "id" : "https://framemark.vam.ac.uk/collections/2008BW3433",
+            "type" : "ImageService2",
+            "profile" : "level1"
+          }
+        },
+        "target" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/canvas/45e40608-2c68-0012-8060-42db05796de4#"
+      } ]
+    } ]
+  }, {
+    "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/canvas/01717a9a-ebb0-6eb4-6d4a-98d62a628f7b",
+    "type" : "Canvas",
+    "behavior" : [ "info-position-left", "layout-overlay" ],
+    "summary" : {
+      "en" : [ "This small plaque exhibits an important advance in the depiction of marble sculpture. Despite a limited colour palette, the face is contoured by the skilful use of andamento (the flow and direction of the individual tiles) and metal strips. Circular tesserae, some of them two-coloured, represent the philosopher’s wild, unkempt hair. " ]
+    },
+    "width" : 1875,
+    "height" : 2500,
+    "requiredStatement" : {
+      "label" : {
+        "en" : [ "" ]
+      },
+      "value" : {
+        "en" : [ "<a href=\"https://collections.vam.ac.uk/item/O157738/bonbonniere-unknown/\" title=\"Bust of Socrates\">Bust of Socrates</a> (Rome, about 1800)<br/>set in a snuffbox<br/>The Rosalinde and Arthur Gilbert Collection on loan to the Victoria and Albert Museum, London" ]
+      }
+    },
+    "items" : [ {
+      "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/list/5f3052eb-e3b5-1a0d-9d88-b48597da3953",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/annotation/ee83e2cf-03c3-dff4-ffcf-c2e0df283be1",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "body" : {
+          "id" : "https://framemark.vam.ac.uk/collections/2018KT2619/full/full/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "width" : 1875,
+          "height" : 2500,
+          "service" : {
+            "id" : "https://framemark.vam.ac.uk/collections/2018KT2619",
+            "type" : "ImageService2",
+            "profile" : "level1"
+          }
+        },
+        "target" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/canvas/01717a9a-ebb0-6eb4-6d4a-98d62a628f7b#"
+      } ]
+    } ]
+  }, {
+    "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/canvas/ed186d64-468b-9c35-1011-04d75fc9ba77",
+    "type" : "Canvas",
+    "behavior" : [ "info-position-left", "layout-overlay" ],
+    "summary" : {
+      "en" : [ "Larger micromosaics were created as statement pieces to impress. This micromosaic tabletop, once owned by Empress Josephine, depicts Hebe, the goddess of youth and cupbearer for the Greek gods. It takes inspiration from a life-size sculpted marble by Antonio Canova, one version of which was displayed at Empress Josephine’s Château de Malmaison." ]
+    },
+    "width" : 1898,
+    "height" : 2500,
+    "requiredStatement" : {
+      "label" : {
+        "en" : [ "" ]
+      },
+      "value" : {
+        "en" : [ "<a href=\"https://collections.vam.ac.uk/item/O157704/table/\" title=\"Hebe after Antonio Canova\">Hebe after Antonio Canova</a> (Paris, about 1810)<br/>set in a table<br/>Francesco Belloni (1772–1865)<br/>The Rosalinde and Arthur Gilbert Collection on loan to the Victoria and Albert Museum, London" ]
+      }
+    },
+    "items" : [ {
+      "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/list/9886787c-4ad2-a62e-8bea-b3e3818d8177",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/annotation/95f514f4-d545-e108-0ded-9479bea94a85",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "body" : {
+          "id" : "https://framemark.vam.ac.uk/collections/2015HU5347/full/full/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "width" : 1898,
+          "height" : 2500,
+          "service" : {
+            "id" : "https://framemark.vam.ac.uk/collections/2015HU5347",
+            "type" : "ImageService2",
+            "profile" : "level1"
+          }
+        },
+        "target" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/canvas/ed186d64-468b-9c35-1011-04d75fc9ba77#"
+      } ]
+    } ]
+  }, {
+    "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/canvas/52c82e5f-71aa-1056-01dd-7179dc5e7b83",
+    "type" : "Canvas",
+    "behavior" : [ "info-position-left", "layout-split" ],
+    "label" : {
+      "en" : [ "Nature in Miniature" ]
+    },
+    "summary" : {
+      "en" : [ "While this butterfly celebrates the increasingly colourful world of micromosaics, it is not identifiable as a specific species. For other mosaicists, the imitation of nature to a degree that deceives the viewer became a key ambition. " ]
+    },
+    "width" : 2500,
+    "height" : 1875,
+    "requiredStatement" : {
+      "label" : {
+        "en" : [ "" ]
+      },
+      "value" : {
+        "en" : [ "<a href=\"https://collections.vam.ac.uk/item/O157805/bonbonniere-neuber-johann-christian/\" title=\"Butterfly\">Butterfly</a> (Rome, about 1870)<br/>set in a bonbonnière by Johann Christian Neuber<br/>The Rosalinde and Arthur Gilbert Collection on loan to the Victoria and Albert Museum, London" ]
+      }
+    },
+    "items" : [ {
+      "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/list/8dbef1c8-7525-6187-3c76-c481a2136351",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/annotation/e5c4e6c0-e015-150d-116a-46479231d22c",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "body" : {
+          "id" : "https://framemark.vam.ac.uk/collections/2018KT2622/full/full/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "width" : 2500,
+          "height" : 1875,
+          "service" : {
+            "id" : "https://framemark.vam.ac.uk/collections/2018KT2622",
+            "type" : "ImageService2",
+            "profile" : "level1"
+          }
+        },
+        "target" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/canvas/52c82e5f-71aa-1056-01dd-7179dc5e7b83#"
+      } ]
+    } ]
+  }, {
+    "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/canvas/2ea73f7a-f415-fdec-df38-a088ab200aa6",
+    "type" : "Canvas",
+    "behavior" : [ "info-position-left", "layout-overlay" ],
+    "summary" : {
+      "en" : [ "The opulent mosaic on this plaque is a painstaking attempt at a botanically accurate study of flowers. Some of the petals have been created using malmischiati tesserae, which are produced through the fusion of two or more glass canes in different colours." ]
+    },
+    "width" : 2500,
+    "height" : 2500,
+    "requiredStatement" : {
+      "label" : {
+        "en" : [ "" ]
+      },
+      "value" : {
+        "en" : [ "<a href=\"https://collections.vam.ac.uk/item/O156552/snuffbox-barbe-carl-helfried/\" title=\"Floral bouquet\">Floral bouquet</a> (Rome, about 1810)<br/>set in a snuffbox marked Carl Helfried Barbé<br/>The Rosalinde and Arthur Gilbert Collection on loan to the Victoria and Albert Museum, London" ]
+      }
+    },
+    "items" : [ {
+      "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/list/f0e10a3c-5735-425d-d7d7-037c15cf4f95",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/annotation/2f075572-dc49-f25c-f87a-23369c5468f2",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "body" : {
+          "id" : "https://framemark.vam.ac.uk/collections/2008BW4213/full/full/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "width" : 2500,
+          "height" : 2500,
+          "service" : {
+            "id" : "https://framemark.vam.ac.uk/collections/2008BW4213",
+            "type" : "ImageService2",
+            "profile" : "level1"
+          }
+        },
+        "target" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/canvas/52c82e5f-71aa-1056-01dd-7179dc5e7b83#"
+      } ]
+    } ]
+  }, {
+    "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/canvas/0bea05d8-c9d5-3b75-1b03-910645181edb",
+    "type" : "Canvas",
+    "behavior" : [ "info-position-left", "layout-overlay" ],
+    "summary" : {
+      "en" : [ "The tiny petals on the lower left of the main plaque stand out for their combination of clearly contrasting colours." ]
+    },
+    "width" : 2500,
+    "height" : 1875,
+    "requiredStatement" : {
+      "label" : {
+        "en" : [ "" ]
+      },
+      "value" : {
+        "en" : [ "<a href=\"https://collections.vam.ac.uk/item/O156552/snuffbox-barbe-carl-helfried/\" title=\"Floral bouquet\">Floral bouquet</a> (Rome, about 1810)<br/>set in a snuffbox marked Carl Helfried Barbé<br/>The Rosalinde and Arthur Gilbert Collection on loan to the Victoria and Albert Museum, London" ]
+      }
+    },
+    "items" : [ {
+      "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/list/3230de8c-5bdf-d39d-6e71-0c04ad10a0c6",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/annotation/8cc63779-76d9-24da-c028-33d2fa4c60ac",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "body" : {
+          "id" : "https://framemark.vam.ac.uk/collections/2018KU3518/full/full/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "width" : 2500,
+          "height" : 1875,
+          "service" : {
+            "id" : "https://framemark.vam.ac.uk/collections/2018KU3518",
+            "type" : "ImageService2",
+            "profile" : "level1"
+          }
+        },
+        "target" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/canvas/52c82e5f-71aa-1056-01dd-7179dc5e7b83#"
+      } ]
+    } ]
+  }, {
+    "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/canvas/2ccfa582-ca56-da30-b54c-fa2d45cacbda",
+    "type" : "Canvas",
+    "behavior" : [ "info-position-right", "layout-overlay" ],
+    "summary" : {
+      "en" : [ "Early rendering of animal fur in micromosaics aspired towards individual tesserae for every hair, as a painter would use brushstrokes. In this example, the mosaicist Antonio Aguatti, one of the absolute masters of the art, has used countless tiny individual tesserae to achieve this magnificent depiction of an African leopard. " ]
+    },
+    "width" : 2500,
+    "height" : 2312,
+    "requiredStatement" : {
+      "label" : {
+        "en" : [ "" ]
+      },
+      "value" : {
+        "en" : [ "<a href=\"http://collections.vam.ac.uk/item/O157865/plaque-aguatti-antonio/\" title=\"Leopard\">Leopard</a> (Rome, 1800–40)<br/>Antonio Aguatti<br/>The Rosalinde and Arthur Gilbert Collection on loan to the Victoria and Albert Museum, London" ]
+      }
+    },
+    "items" : [ {
+      "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/list/bfec491f-9596-a7fc-7e00-6c3658a364ec",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/annotation/e6307f1a-1f6b-c432-9075-941d0a5c1d01",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "body" : {
+          "id" : "https://framemark.vam.ac.uk/collections/2018KU3511/full/full/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "width" : 2500,
+          "height" : 2312,
+          "service" : {
+            "id" : "https://framemark.vam.ac.uk/collections/2018KU3511",
+            "type" : "ImageService2",
+            "profile" : "level1"
+          }
+        },
+        "target" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/canvas/52c82e5f-71aa-1056-01dd-7179dc5e7b83#"
+      } ]
+    } ]
+  }, {
+    "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/canvas/ebc5a9d1-7dfd-ec22-e2c6-5ef42cf1a293",
+    "type" : "Canvas",
+    "behavior" : [ "info-position-left", "layout-overlay" ],
+    "summary" : {
+      "en" : [ "In this piece Antonio Aguatti turned to a more domestic subject. Interestingly, while the grass is set using two-coloured glass pieces, Aguatti only used single-coloured tesserae for the dog’s coat, possibly to create contrast between plant and animal." ]
+    },
+    "width" : 2500,
+    "height" : 2395,
+    "requiredStatement" : {
+      "label" : {
+        "en" : [ "" ]
+      },
+      "value" : {
+        "en" : [ "<a href=\"https://collections.vam.ac.uk/item/O157730/snuffbox-aguatti-antonio/\" title=\"Spaniel after Johann Wenzel Peter\">Spaniel after Johann Wenzel Peter</a> (Rome, 1800–25)<br/>set in a snuffbox<br/>Antonio Aguatti (died 1846)<br/>The Rosalinde and Arthur Gilbert Collection on loan to the Victoria and Albert Museum, London" ]
+      }
+    },
+    "items" : [ {
+      "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/list/d1484a9f-9f63-86e0-c2df-2fc3826cf6d4",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/annotation/fc1fe578-0107-c441-3c7a-3119717a7dcb",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "body" : {
+          "id" : "https://framemark.vam.ac.uk/collections/2018KR9580/full/full/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "width" : 2500,
+          "height" : 2395,
+          "service" : {
+            "id" : "https://framemark.vam.ac.uk/collections/2018KR9580",
+            "type" : "ImageService2",
+            "profile" : "level1"
+          }
+        },
+        "target" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/canvas/52c82e5f-71aa-1056-01dd-7179dc5e7b83#"
+      } ]
+    } ]
+  }, {
+    "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/canvas/da46d024-89e8-1956-65f9-9f2823d42115",
+    "type" : "Canvas",
+    "behavior" : [ "info-position-left", "layout-split" ],
+    "label" : {
+      "en" : [ "Portraits and People" ]
+    },
+    "summary" : {
+      "en" : [ "The human face is incredibly difficult to depict in any medium. Despite this, micromosaicists embraced the challenge. Most works in this genre are miniature reproductions of famous portraits from Roman collections – the ideal vehicles for showing just how far the technique had developed in terms of execution and material. " ]
+    },
+    "width" : 2231,
+    "height" : 2500,
+    "requiredStatement" : {
+      "label" : {
+        "en" : [ "" ]
+      },
+      "value" : {
+        "en" : [ "<a href=\"https://collections.vam.ac.uk/item/O167044/lavinia-as-flora-picture-moglia-luigi/\" title=\"Girl with a bowl of fruit after Titian\">Girl with a bowl of fruit after Titian</a> (Rome, about 1830)<br/>Luigi Moglia (active about 1823–78), <br/>The Rosalinde and Arthur Gilbert Collection on loan to the Victoria and Albert Museum, London" ]
+      }
+    },
+    "items" : [ {
+      "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/list/d1354fd4-30d8-10e0-7ccf-40e762f157c7",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/annotation/0d2f673f-d717-8fb4-9387-1c1ffbf5c3df",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "body" : {
+          "id" : "https://framemark.vam.ac.uk/collections/2009CC6158/full/full/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "width" : 2231,
+          "height" : 2500,
+          "service" : {
+            "id" : "https://framemark.vam.ac.uk/collections/2009CC6158",
+            "type" : "ImageService2",
+            "profile" : "level1"
+          }
+        },
+        "target" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/canvas/52c82e5f-71aa-1056-01dd-7179dc5e7b83#"
+      } ]
+    } ]
+  }, {
+    "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/canvas/bfb47ccd-a274-de2e-6c5d-cbad0b143396",
+    "type" : "Canvas",
+    "behavior" : [ "info-position-right", "layout-overlay" ],
+    "summary" : {
+      "en" : [ "On the original, Titian deliberately blurred the edges on the face using a technique known as sfumato, meaning soft or hazy, creating an image of a spirited girl with an ever-changing expression. Even a mosaicist of Moglia’s skill was constrained by his materials and obliged to set his glass tesserae line by line. While his version is remarkable, it is more static than the original painting." ]
+    },
+    "width" : 2231,
+    "height" : 2500,
+    "requiredStatement" : {
+      "label" : {
+        "en" : [ "" ]
+      },
+      "value" : {
+        "en" : [ "<a href=\"#\" title=\"Girl with a bowl of fruit after Titian\">Girl with a bowl of fruit after Titian<br/>Luigi Moglia (active about 1823–78), Rome, about 1830<br/>The Rosalinde and Arthur Gilbert Collection on loan to the Victoria and Albert Museum, London" ]
+      }
+    },
+    "items" : [ {
+      "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/list/107c8cdd-ac72-0911-4998-9cd513dc7747",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/annotation/6ec5042d-2452-f0c5-2e54-708c28f7de71",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "body" : {
+          "id" : "https://framemark.vam.ac.uk/collections/2009CC6158/full/full/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "width" : 2231,
+          "height" : 2500,
+          "service" : {
+            "id" : "https://framemark.vam.ac.uk/collections/2009CC6158",
+            "type" : "ImageService2",
+            "profile" : "level1"
+          }
+        },
+        "target" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/canvas/52c82e5f-71aa-1056-01dd-7179dc5e7b83#"
+      } ]
+    } ]
+  }, {
+    "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/canvas/2e93c878-b860-a629-197c-eee85e20c38b",
+    "type" : "Canvas",
+    "behavior" : [ "info-position-right", "layout-overlay" ],
+    "summary" : {
+      "en" : [ "This micromosaic depicts Roman noblewoman Beatrice Cenci, executed at the age of 22 for her involvement in the murder of her father, following a lifetime of tragic abuse. The face is softened  and contoured by leaving brown gaps between the unevenly distributed tesserae, and her dark eyes are set with four colours, creating depth. " ]
+    },
+    "width" : 2500,
+    "height" : 2500,
+    "requiredStatement" : {
+      "label" : {
+        "en" : [ "" ]
+      },
+      "value" : {
+        "en" : [ "<a href=\"https://collections.vam.ac.uk/item/O156598/brooch-unknown/\" title=\"Beatrice Cenci possibly after Elisabetta Sirani\">Beatrice Cenci possibly after Elisabetta Sirani</a> (Rome, 1820–50)<br/>set in a brooch<br/>The Rosalinde and Arthur Gilbert Collection on loan to the Victoria and Albert Museum, London" ]
+      }
+    },
+    "items" : [ {
+      "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/list/f57286e4-3605-b3cf-0bcb-2eaca7b0a8e8",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/annotation/cc045b86-23ad-09c6-e2e2-f1a5d10f0d87",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "body" : {
+          "id" : "https://framemark.vam.ac.uk/collections/2008BW3444/full/full/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "width" : 2500,
+          "height" : 2500,
+          "service" : {
+            "id" : "https://framemark.vam.ac.uk/collections/2008BW3444",
+            "type" : "ImageService2",
+            "profile" : "level1"
+          }
+        },
+        "target" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/canvas/52c82e5f-71aa-1056-01dd-7179dc5e7b83#"
+      } ]
+    } ]
+  }, {
+    "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/canvas/9d5366bc-9109-d60a-ae34-9c7c7ee8bab5",
+    "type" : "Canvas",
+    "behavior" : [ "info-position-left", "layout-overlay" ],
+    "summary" : {
+      "en" : [ "Mosaicists of the Vatican produced pictures on commission or for general sale, including subjects such as this cavalier. The portrait-like nature has parallels with the contemporary fashion of being photographed in historic costume. Tarantoni has used paint, now partly discoloured, to make the face more convincing. The tesserae that depict the stone wall are arranged in a way that is comparable to those used in the backgrounds of the first generation of micromosaicists (see first slide)." ]
+    },
+    "width" : 1897,
+    "height" : 2500,
+    "requiredStatement" : {
+      "label" : {
+        "en" : [ "" ]
+      },
+      "value" : {
+        "en" : [ "<a href=\"https://collections.vam.ac.uk/item/O157706/picture-tarantoni-luigi/\" title=\"Cavalier\">Cavalier</a> (Rome, about 1880)<br/>Luigi Tarantoni<br/>The Rosalinde and Arthur Gilbert Collection on loan to the Victoria and Albert Museum, London" ]
+      }
+    },
+    "items" : [ {
+      "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/list/c7da2bb1-05d7-4824-d5ba-419734789dc9",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/annotation/4f975d40-499e-b34d-8905-d0406dcdc9d8",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "body" : {
+          "id" : "https://framemark.vam.ac.uk/collections/2018KU6473/full/full/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "width" : 1897,
+          "height" : 2500,
+          "service" : {
+            "id" : "https://framemark.vam.ac.uk/collections/2018KU6473",
+            "type" : "ImageService2",
+            "profile" : "level1"
+          }
+        },
+        "target" : "https://iiif.vam.ac.uk/slideshows/gilbert/manifest.json/canvas/52c82e5f-71aa-1056-01dd-7179dc5e7b83#"
+      } ]
+    } ]
+  } ]
+}
