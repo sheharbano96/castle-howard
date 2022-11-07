@@ -5,9 +5,5 @@
   },
   "type" : "Collection",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
-  "items" : [ {
-    "@type" : "sc:Manifest",
-    "@id" : "https://sheharbano96.github.io/castle-howard/manifests/manifest-castle.json",
-    "label" : "Castle Howard, North Yorkshire"
-  } ]
+  "items" : [ ]
 }
