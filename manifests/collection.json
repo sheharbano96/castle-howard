@@ -11,5 +11,11 @@
       "en" : [ "Micromosaics" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://sheharbano96.github.io/castle-howard/manifests/manifestmicromosaics.json",
+    "label" : {
+      "en" : [ "Micromosaics" ]
+    },
+    "type" : "Manifest"
   } ]
 }
